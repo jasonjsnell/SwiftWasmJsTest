@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug carton2",
+            "program": "${workspaceFolder:carton2}/.build/debug/carton2",
+            "args": [],
+            "cwd": "${workspaceFolder:carton2}",
+            "preLaunchTask": "swift: Build Debug carton2"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release carton2",
+            "program": "${workspaceFolder:carton2}/.build/release/carton2",
+            "args": [],
+            "cwd": "${workspaceFolder:carton2}",
+            "preLaunchTask": "swift: Build Release carton2"
+        }
+    ]
+}
